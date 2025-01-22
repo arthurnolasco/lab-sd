@@ -1,0 +1,221 @@
+m255
+K3
+13
+cModel Technology
+Z0 dB:\UFMG\2023-2\LAB SD\pratica 8\Tudo\Datapath\simulation\modelsim
+Ebcd_7seg
+Z1 w1697842885
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dB:\UFMG\2023-2\LAB SD\pratica 8\Tudo\Datapath\simulation\modelsim
+Z5 8B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/BCD_7seg/BCD_7seg.vhd
+Z6 FB:/UFMG/2023-2/LAB SD/pratica 8/Tudo/BCD_7seg/BCD_7seg.vhd
+l0
+L4
+V`o6UecCXXcKXh[NWIfEzD0
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1699012497.169000
+Z9 !s90 -reportprogress|300|-93|-work|work|B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/BCD_7seg/BCD_7seg.vhd|
+Z10 !s107 B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/BCD_7seg/BCD_7seg.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 Mj?kZhT<CDN2m7femMXLG1
+!i10b 1
+Awith_select_bcd7seg
+R2
+R3
+DEx4 work 8 bcd_7seg 0 22 `o6UecCXXcKXh[NWIfEzD0
+l12
+L11
+VDG7NE8hTjcB2OT8WeEo:M1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 jaBD@[5mk7<?b`KRU<VdK3
+!i10b 1
+Ecomparador
+Z13 w1698447946
+Z14 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R2
+R3
+R4
+Z15 8B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Comparador/Comparador.vhd
+Z16 FB:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Comparador/Comparador.vhd
+l0
+L4
+V>]jJH2_LS2A[E71DhUF^O1
+R7
+31
+Z17 !s108 1699012496.855000
+Z18 !s90 -reportprogress|300|-93|-work|work|B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Comparador/Comparador.vhd|
+Z19 !s107 B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Comparador/Comparador.vhd|
+R11
+R12
+!s100 XOWIgH@:[[]d6=Y4o:nCi2
+!i10b 1
+Adataflow
+R14
+R2
+R3
+DEx4 work 10 comparador 0 22 >]jJH2_LS2A[E71DhUF^O1
+l19
+L18
+VdXkCY6JmzG6EiPINb<:?83
+R7
+31
+R17
+R18
+R19
+R11
+R12
+!s100 D1oa1b=e6WLGglcILBOGC0
+!i10b 1
+Edatapath
+Z20 w1698520330
+R14
+R2
+R3
+R4
+Z21 8B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/Datapath.vhd
+Z22 FB:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/Datapath.vhd
+l0
+L4
+V5AkhfGDD<4XgfniF>^TOJ0
+R7
+31
+Z23 !s108 1699012497.810000
+Z24 !s90 -reportprogress|300|-93|-work|work|B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/Datapath.vhd|
+Z25 !s107 B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/Datapath.vhd|
+R11
+R12
+!s100 l7zBX?mef9[V5AI[4S4E92
+!i10b 1
+Aarch
+R14
+R2
+R3
+DEx4 work 8 datapath 0 22 5AkhfGDD<4XgfniF>^TOJ0
+l66
+L22
+V6A>NS13j7om7gF`l3VMW_3
+R7
+31
+R23
+R24
+R25
+R11
+R12
+!s100 6oHZ8OM<;hCe2LF>bUBD51
+!i10b 1
+Ereg_ma
+Z26 w1698984958
+R14
+R2
+R3
+R4
+Z27 8B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Reg_MA/Reg_MA.vhd
+Z28 FB:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Reg_MA/Reg_MA.vhd
+l0
+L4
+VP;5U55QDT3AVkEf<PHa8>0
+R7
+31
+Z29 !s108 1699012496.041000
+Z30 !s90 -reportprogress|300|-93|-work|work|B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Reg_MA/Reg_MA.vhd|
+Z31 !s107 B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Reg_MA/Reg_MA.vhd|
+R11
+R12
+!s100 _SX5:@?LM]0e;SQjW32XQ2
+!i10b 1
+Aarch
+R14
+R2
+R3
+DEx4 work 6 reg_ma 0 22 P;5U55QDT3AVkEf<PHa8>0
+l18
+L15
+V6PUHn?<nW98cR_]j>LC5?0
+R7
+31
+R29
+R30
+R31
+R11
+R12
+!s100 k>N1W7k<IBPFmm33=WDml0
+!i10b 1
+Eregw
+Z32 w1697860888
+R2
+R3
+R4
+Z33 8B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/RegW/RegW.vhd
+Z34 FB:/UFMG/2023-2/LAB SD/pratica 8/Tudo/RegW/RegW.vhd
+l0
+L3
+V8oTBXYP0AU@e2c`J=QB>I0
+R7
+31
+Z35 !s108 1699012497.482000
+Z36 !s90 -reportprogress|300|-93|-work|work|B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/RegW/RegW.vhd|
+Z37 !s107 B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/RegW/RegW.vhd|
+R11
+R12
+!s100 <F`9mRjF>e8Q^NoN2[W9]2
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 4 regw 0 22 8oTBXYP0AU@e2c`J=QB>I0
+l16
+L15
+VHSAdSl^@1@NXOYQHVbBIb0
+R7
+31
+R35
+R36
+R37
+R11
+R12
+!s100 fJnWG:ogj7mWIcdE3RBLB2
+!i10b 1
+Etb_datapath
+Z38 w1699008495
+R2
+R3
+R4
+Z39 8B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd
+Z40 FB:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd
+l0
+L3
+VJFY4NdId_S<mf<DAYm1hg0
+!s100 =2K>Do7V@7me?R6nZi>5P0
+R7
+31
+!i10b 1
+Z41 !s108 1699012498.061000
+Z42 !s90 -reportprogress|300|-93|-work|work|B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd|
+Z43 !s107 B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd|
+R11
+R12
+Ateste
+R2
+R3
+DEx4 work 11 tb_datapath 0 22 JFY4NdId_S<mf<DAYm1hg0
+l30
+L5
+VH5F8lZ<_NOhbe75en6V`U2
+!s100 X<G7Ni@JUk5bN9L]8_fm31
+R7
+31
+!i10b 1
+R41
+R42
+R43
+R11
+R12

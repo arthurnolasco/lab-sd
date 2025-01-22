@@ -1,0 +1,29 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+entity tb_FlipFlopD is
+end tb_FlipFlopD;
+architecture teste of tb_FlipFlopD is
+component FlipFlopD is
+generic(
+ W: integer:=32
+);
+port( 
+ Load: in std_logic;
+ clock: in std_logic;
+ D: in std_logic_vector(W-1 downto 0);
+ Q: out std_logic_vector(W-1 downto 0)
+ );
+end component;
+signal fio_Cl: std_logic:'0';
+signal fio_D, fio_Re, fio_Q, fio_L: std_logic;
+begin
+-- Note que o componente é instanciado com apenas 4 bits nas entradas para facilitar 
+a simulação:
+instancia_FlipFlopD: FlipFlopD port map(clock=>fio_Cl, D=>fio_D, reset=>fio_Re, 
+Q=>fio_Q, Load=>fio_L);
+-- Dados de entrada de 4 bits são expressos em "hexadecimal" usando "x":
+fio_L<='0', '1' after 75ns;
+fio_Cl<=not fio_Cl after 25ns;
+fio_D<='0','1' after 25ns,'0' after 75ns, '1' after 150ns;
+fio_Re<='0','1' after 2ns, '0' after 200ns;
+end teste

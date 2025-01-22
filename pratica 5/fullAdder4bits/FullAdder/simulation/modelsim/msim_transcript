@@ -1,0 +1,176 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do fulladder_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/fulladder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fulladder
+# -- Compiling architecture RTL of fulladder
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_fulladder
+# -- Compiling architecture teste of tb_fulladder
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  tb_fulladder
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_fulladder 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_fulladder(teste)
+# Loading work.fulladder(rtl)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps work.fulladder
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps work.fulladder 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.fulladder(rtl)
+do fulladder_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/fulladder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fulladder
+# -- Compiling architecture RTL of fulladder
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_fulladder
+# -- Compiling architecture teste of tb_fulladder
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  tb_fulladder
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_fulladder 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_fulladder(teste)
+# Loading work.fulladder(rtl)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do fulladder_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/fulladder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fulladder
+# -- Compiling architecture RTL of fulladder
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_fulladder
+# -- Compiling architecture teste of tb_fulladder
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FullAdder/tb_fulladder.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  tb_fulladder
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_fulladder 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_fulladder(teste)
+# Loading work.fulladder(rtl)
+# 
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate -radix decimal -expand /tb_fulladder/fio_Cin
+# add wave -noupdate -radix decimal -expand /tb_fulladder/fio_x
+# add wave -noupdate -radix decimal -expand /tb_fulladder/fio_y
+# add wave -noupdate -radix decimal -expand /tb_fulladder/fio_s
+# add wave -noupdate -radix decimal -expand /tb_fulladder/fio_Cout
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {87828 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {0 ps} {94500 ps}
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all

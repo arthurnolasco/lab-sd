@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/silva/OneDrive/Área de Trabalho/UFMG/2023-2/LAB SD/pratica 2/Door_opener.vhd
+source_file = 1, C:/Users/silva/OneDrive/Área de Trabalho/UFMG/2023-2/LAB SD/pratica 2/tb_Door_opener.vhd
+source_file = 1, C:/Users/silva/OneDrive/Área de Trabalho/UFMG/2023-2/LAB SD/pratica 2/db/Door_opener.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = Door_opener
+instance = comp, \pino_h~I\, pino_h, Door_opener, 1
+instance = comp, \pino_c~I\, pino_c, Door_opener, 1
+instance = comp, \pino_p~I\, pino_p, Door_opener, 1
+instance = comp, \pino_f~0\, pino_f~0, Door_opener, 1
+instance = comp, \pino_f~I\, pino_f, Door_opener, 1

@@ -1,0 +1,8 @@
+
+State Machine - |Controladora|est_atual
+Name est_atual.s4 est_atual.s3 est_atual.s2 est_atual.s1 est_atual.s0 
+est_atual.s0 0 0 0 0 0 
+est_atual.s1 0 0 0 1 1 
+est_atual.s2 0 0 1 0 1 
+est_atual.s3 0 1 0 0 1 
+est_atual.s4 1 0 0 0 1 

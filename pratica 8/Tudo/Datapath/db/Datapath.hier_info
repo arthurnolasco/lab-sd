@@ -1,0 +1,173 @@
+|Datapath
+Entrada[0] => RegW:RegistradorE.E[0]
+Entrada[1] => RegW:RegistradorE.E[1]
+Entrada[2] => RegW:RegistradorE.E[2]
+Entrada[3] => RegW:RegistradorE.E[3]
+Fio_Load_E => RegW:RegistradorE.Load
+Fio_Reset_MA => Reg_MA:RegistradorMedia.RESET
+Fio_Descendo[0] => RegW:RegistradorD.E[0]
+Fio_Subindo[0] => RegW:RegistradorS.E[0]
+Fio_Atualizar => RegW:RegistradorS.Load
+Fio_Atualizar => RegW:RegistradorD.Load
+Fio_Clock => RegW:RegistradorE.clock
+Fio_Clock => Reg_MA:RegistradorMedia.CLK
+Fio_Clock => RegW:RegistradorS.clock
+Fio_Clock => RegW:RegistradorD.clock
+Fio_Maior <= Comparador:Comp.maior
+Fio_Igual <= Comparador:Comp.igual
+Fio_Menor <= Comparador:Comp.menor
+Subindo[0] <= RegW:RegistradorS.Q[0]
+Descendo[0] <= RegW:RegistradorD.Q[0]
+Media_DSP_7Seg[0] <= Bcd_7seg:Led7segmentos.saida[0]
+Media_DSP_7Seg[1] <= Bcd_7seg:Led7segmentos.saida[1]
+Media_DSP_7Seg[2] <= Bcd_7seg:Led7segmentos.saida[2]
+Media_DSP_7Seg[3] <= Bcd_7seg:Led7segmentos.saida[3]
+Media_DSP_7Seg[4] <= Bcd_7seg:Led7segmentos.saida[4]
+Media_DSP_7Seg[5] <= Bcd_7seg:Led7segmentos.saida[5]
+Media_DSP_7Seg[6] <= Bcd_7seg:Led7segmentos.saida[6]
+
+
+|Datapath|RegW:RegistradorE
+Load => Q[0]~reg0.ENA
+Load => Q[1]~reg0.ENA
+Load => Q[2]~reg0.ENA
+Load => Q[3]~reg0.ENA
+clock => Q[0]~reg0.CLK
+clock => Q[1]~reg0.CLK
+clock => Q[2]~reg0.CLK
+clock => Q[3]~reg0.CLK
+E[0] => Q[0]~reg0.DATAIN
+E[1] => Q[1]~reg0.DATAIN
+E[2] => Q[2]~reg0.DATAIN
+E[3] => Q[3]~reg0.DATAIN
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Datapath|Reg_MA:RegistradorMedia
+CLK => var4[0].CLK
+CLK => var4[1].CLK
+CLK => var4[2].CLK
+CLK => var4[3].CLK
+CLK => var3[0].CLK
+CLK => var3[1].CLK
+CLK => var3[2].CLK
+CLK => var3[3].CLK
+CLK => var2[0].CLK
+CLK => var2[1].CLK
+CLK => var2[2].CLK
+CLK => var2[3].CLK
+CLK => var1[0].CLK
+CLK => var1[1].CLK
+CLK => var1[2].CLK
+CLK => var1[3].CLK
+RESET => var4[0].ACLR
+RESET => var4[1].ACLR
+RESET => var4[2].ACLR
+RESET => var4[3].ACLR
+RESET => var3[0].ACLR
+RESET => var3[1].ACLR
+RESET => var3[2].ACLR
+RESET => var3[3].ACLR
+RESET => var2[0].ACLR
+RESET => var2[1].ACLR
+RESET => var2[2].ACLR
+RESET => var2[3].ACLR
+RESET => var1[0].ACLR
+RESET => var1[1].ACLR
+RESET => var1[2].ACLR
+RESET => var1[3].ACLR
+INPUT[0] => var1[0].DATAIN
+INPUT[1] => var1[1].DATAIN
+INPUT[2] => var1[2].DATAIN
+INPUT[3] => var1[3].DATAIN
+OUTPUT[0] <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+OUTPUT[1] <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+OUTPUT[2] <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+OUTPUT[3] <= Add2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Datapath|Comparador:Comp
+a[0] => Equal0.IN3
+a[0] => LessThan0.IN4
+a[0] => LessThan1.IN4
+a[1] => Equal0.IN2
+a[1] => LessThan0.IN3
+a[1] => LessThan1.IN3
+a[2] => Equal0.IN1
+a[2] => LessThan0.IN2
+a[2] => LessThan1.IN2
+a[3] => Equal0.IN0
+a[3] => LessThan0.IN1
+a[3] => LessThan1.IN1
+b[0] => Equal0.IN7
+b[0] => LessThan0.IN8
+b[0] => LessThan1.IN8
+b[1] => Equal0.IN6
+b[1] => LessThan0.IN7
+b[1] => LessThan1.IN7
+b[2] => Equal0.IN5
+b[2] => LessThan0.IN6
+b[2] => LessThan1.IN6
+b[3] => Equal0.IN4
+b[3] => LessThan0.IN5
+b[3] => LessThan1.IN5
+maior <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+menor <= LessThan1.DB_MAX_OUTPUT_PORT_TYPE
+igual <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Datapath|Bcd_7seg:Led7segmentos
+entrada[0] => Mux0.IN19
+entrada[0] => Mux1.IN19
+entrada[0] => Mux2.IN19
+entrada[0] => Mux3.IN19
+entrada[0] => Mux4.IN19
+entrada[0] => Mux5.IN19
+entrada[0] => Mux6.IN19
+entrada[1] => Mux0.IN18
+entrada[1] => Mux1.IN18
+entrada[1] => Mux2.IN18
+entrada[1] => Mux3.IN18
+entrada[1] => Mux4.IN18
+entrada[1] => Mux5.IN18
+entrada[1] => Mux6.IN18
+entrada[2] => Mux0.IN17
+entrada[2] => Mux1.IN17
+entrada[2] => Mux2.IN17
+entrada[2] => Mux3.IN17
+entrada[2] => Mux4.IN17
+entrada[2] => Mux5.IN17
+entrada[2] => Mux6.IN17
+entrada[3] => Mux0.IN16
+entrada[3] => Mux1.IN16
+entrada[3] => Mux2.IN16
+entrada[3] => Mux3.IN16
+entrada[3] => Mux4.IN16
+entrada[3] => Mux5.IN16
+entrada[3] => Mux6.IN16
+saida[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+saida[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+saida[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+saida[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+saida[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+saida[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+saida[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Datapath|RegW:RegistradorS
+Load => Q[0]~reg0.ENA
+clock => Q[0]~reg0.CLK
+E[0] => Q[0]~reg0.DATAIN
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Datapath|RegW:RegistradorD
+Load => Q[0]~reg0.ENA
+clock => Q[0]~reg0.CLK
+E[0] => Q[0]~reg0.DATAIN
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

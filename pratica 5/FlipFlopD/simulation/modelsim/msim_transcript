@@ -1,0 +1,385 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do FlipFlopD_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/FlipFlopD.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FlipFlopD
+# -- Compiling architecture RTL of FlipFlopD
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_FlipFlopD
+# -- Compiling architecture teste of tb_FlipFlopD
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  tb_FlipFlopD
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_FlipFlopD 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_flipflopd(teste)
+# Loading work.flipflopd(rtl)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 250 ns
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/simulation/modelsim/wave.do}
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/simulation/modelsim/wave.do}
+do FlipFlopD_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/FlipFlopD.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FlipFlopD
+# -- Compiling architecture RTL of FlipFlopD
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_FlipFlopD
+# -- Compiling architecture teste of tb_FlipFlopD
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  tb_FlipFlopD
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_FlipFlopD 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_flipflopd(teste)
+# Loading work.flipflopd(rtl)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 250 ns
+do FlipFlopD_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/FlipFlopD.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FlipFlopD
+# -- Compiling architecture RTL of FlipFlopD
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_FlipFlopD
+# -- Compiling architecture teste of tb_FlipFlopD
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  tb_FlipFlopD
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_FlipFlopD 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_flipflopd(teste)
+# Loading work.flipflopd(rtl)
+# 
+# add wave.do *
+# ** Error: bad option "wave.do": should be one of...
+#   add atv ?options? ?arg arg ...?
+#   add button text action ?disable? ?options? ?help?
+#   add dataflow ?options? ?arg arg ...?
+#   add lists ?options? ?arg arg ...?
+#   add log ?options? ?arg arg ...?
+#   add memory options ?arg arg ...?
+#   add message ?options? ?arg arg ...?
+#   add monitor ?options? ?arg arg ...?
+#   add schematic ?options? ?arg arg ...?
+#   add testbrowser ?options? ?arg arg ...?
+#   add virtual ?options? ?arg arg ...?
+#   add watch ?options? ?arg arg ...?
+#   add wave ?options? ?arg arg ...?
+# Error in macro ./FlipFlopD_run_msim_rtl_vhdl.do line 14
+# bad option "wave.do": should be one of...
+#   add atv ?options? ?arg arg ...?
+#   add button text action ?disable? ?options? ?help?
+#   add dataflow ?options? ?arg arg ...?
+#   add lists ?options? ?arg arg ...?
+#   add log ?options? ?arg arg ...?
+#   add memory options ?arg arg ...?
+#   add message ?options? ?arg arg ...?
+#   add monitor ?options? ?arg arg ...?
+#   add schematic ?options? ?arg arg ...?
+#   add testbrowser ?options? ?arg arg ...?
+#   add virtual ?options? ?arg arg ...?
+#   add watch ?options? ?arg arg ...?
+#   add wave ?options? ?arg arg ...?
+#     while executing
+# "add wave.do *"
+do FlipFlopD_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/FlipFlopD.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FlipFlopD
+# -- Compiling architecture RTL of FlipFlopD
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_FlipFlopD
+# -- Compiling architecture teste of tb_FlipFlopD
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  tb_FlipFlopD
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_FlipFlopD 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_flipflopd(teste)
+# Loading work.flipflopd(rtl)
+# 
+# add wave.do *
+# ** Error: bad option "wave.do": should be one of...
+#   add atv ?options? ?arg arg ...?
+#   add button text action ?disable? ?options? ?help?
+#   add dataflow ?options? ?arg arg ...?
+#   add lists ?options? ?arg arg ...?
+#   add log ?options? ?arg arg ...?
+#   add memory options ?arg arg ...?
+#   add message ?options? ?arg arg ...?
+#   add monitor ?options? ?arg arg ...?
+#   add schematic ?options? ?arg arg ...?
+#   add testbrowser ?options? ?arg arg ...?
+#   add virtual ?options? ?arg arg ...?
+#   add watch ?options? ?arg arg ...?
+#   add wave ?options? ?arg arg ...?
+# Error in macro ./FlipFlopD_run_msim_rtl_vhdl.do line 14
+# bad option "wave.do": should be one of...
+#   add atv ?options? ?arg arg ...?
+#   add button text action ?disable? ?options? ?help?
+#   add dataflow ?options? ?arg arg ...?
+#   add lists ?options? ?arg arg ...?
+#   add log ?options? ?arg arg ...?
+#   add memory options ?arg arg ...?
+#   add message ?options? ?arg arg ...?
+#   add monitor ?options? ?arg arg ...?
+#   add schematic ?options? ?arg arg ...?
+#   add testbrowser ?options? ?arg arg ...?
+#   add virtual ?options? ?arg arg ...?
+#   add watch ?options? ?arg arg ...?
+#   add wave ?options? ?arg arg ...?
+#     while executing
+# "add wave.do *"
+do FlipFlopD_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/FlipFlopD.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FlipFlopD
+# -- Compiling architecture RTL of FlipFlopD
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_FlipFlopD
+# -- Compiling architecture teste of tb_FlipFlopD
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  tb_FlipFlopD
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_FlipFlopD 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_flipflopd(teste)
+# Loading work.flipflopd(rtl)
+# 
+# add wave *
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate -divider clock
+# add wave -noupdate /tb_flipflopd/fio_Cl
+# add wave -noupdate -divider entradas
+# add wave -noupdate /tb_flipflopd/fio_D
+# add wave -noupdate /tb_flipflopd/fio_Re
+# add wave -noupdate -divider saidas
+# add wave -noupdate /tb_flipflopd/fio_Q
+# add wave -noupdate /tb_flipflopd/fio_en
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {249221 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {0 ps} {262500 ps}
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 250 ns
+do FlipFlopD_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/FlipFlopD.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FlipFlopD
+# -- Compiling architecture RTL of FlipFlopD
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_FlipFlopD
+# -- Compiling architecture teste of tb_FlipFlopD
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 5/FlipFlopD/tb_FlipFlopD.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  tb_FlipFlopD
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_FlipFlopD 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_flipflopd(teste)
+# Loading work.flipflopd(rtl)
+# 
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate -divider clock
+# add wave -noupdate /tb_flipflopd/fio_Cl
+# add wave -noupdate -divider entradas
+# add wave -noupdate /tb_flipflopd/fio_D
+# add wave -noupdate /tb_flipflopd/fio_Re
+# add wave -noupdate -divider saidas
+# add wave -noupdate /tb_flipflopd/fio_Q
+# add wave -noupdate /tb_flipflopd/fio_en
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {249221 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {0 ps} {262500 ps}
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 250 ns

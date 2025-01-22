@@ -1,0 +1,77 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\silva\OneDrive\햞ea de Trabalho\UFMG\2023-2\LAB SD\pratica 7\simulation\modelsim
+Epseudo_mux
+Z1 w1696634215
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\silva\OneDrive\햞ea de Trabalho\UFMG\2023-2\LAB SD\pratica 7\simulation\modelsim
+Z5 8C:/Users/silva/OneDrive/햞ea de Trabalho/UFMG/2023-2/LAB SD/pratica 7/pseudo_mux.vhd
+Z6 FC:/Users/silva/OneDrive/햞ea de Trabalho/UFMG/2023-2/LAB SD/pratica 7/pseudo_mux.vhd
+l0
+L21
+VzYe9D4kkhV^lDK2I6j>V61
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1697023176.517000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/silva/OneDrive/햞ea de Trabalho/UFMG/2023-2/LAB SD/pratica 7/pseudo_mux.vhd|
+Z10 !s107 C:/Users/silva/OneDrive/햞ea de Trabalho/UFMG/2023-2/LAB SD/pratica 7/pseudo_mux.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 d:`JKK1ozOKd^da8OoE6Q2
+!i10b 1
+Aarch
+R2
+R3
+DEx4 work 10 pseudo_mux 0 22 zYe9D4kkhV^lDK2I6j>V61
+l34
+L31
+V9gH0mCQdVZBFkmHhiA4Ua2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 ?ehde3f5eYkY_Y?P67SjR3
+!i10b 1
+Etb_pseudo_mux
+Z13 w1696634300
+Z14 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R2
+R3
+R4
+Z15 8C:/Users/silva/OneDrive/햞ea de Trabalho/UFMG/2023-2/LAB SD/pratica 7/tb_pseudo_mux.vhd
+Z16 FC:/Users/silva/OneDrive/햞ea de Trabalho/UFMG/2023-2/LAB SD/pratica 7/tb_pseudo_mux.vhd
+l0
+L5
+VE97ZLe;@7?8:=c;`QzY]42
+!s100 miYGDhC8]OJQC7ONVfVF`0
+R7
+31
+!i10b 1
+Z17 !s108 1697023176.658000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/silva/OneDrive/햞ea de Trabalho/UFMG/2023-2/LAB SD/pratica 7/tb_pseudo_mux.vhd|
+Z19 !s107 C:/Users/silva/OneDrive/햞ea de Trabalho/UFMG/2023-2/LAB SD/pratica 7/tb_pseudo_mux.vhd|
+R11
+R12
+Ateste
+R14
+R2
+R3
+DEx4 work 13 tb_pseudo_mux 0 22 E97ZLe;@7?8:=c;`QzY]42
+l26
+L8
+V7^E2n0=[?4`4ZkHiBYLJn3
+!s100 X<CaAD^d[=RMhUz>`VaRd3
+R7
+31
+!i10b 1
+R17
+R18
+R19
+R11
+R12

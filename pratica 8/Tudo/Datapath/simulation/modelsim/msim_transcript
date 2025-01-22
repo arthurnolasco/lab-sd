@@ -1,0 +1,1372 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Datapath_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Reg_MA/Reg_MA.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Reg_MA
+# -- Compiling architecture arch of Reg_MA
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Comparador/Comparador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Comparador
+# -- Compiling architecture dataflow of Comparador
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/BCD_7seg/BCD_7seg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Bcd_7seg
+# -- Compiling architecture with_select_bcd7seg of Bcd_7seg
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/RegW/RegW.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegW
+# -- Compiling architecture RTL of RegW
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/Datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Datapath
+# -- Compiling architecture Arch of Datapath
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_Datapath
+# -- Compiling architecture teste of tb_Datapath
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(35): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(38): (vcom-1272) Length of expected is 1; length of actual is 4.
+# 
+# ** Error: B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(38): (vcom-1272) Length of expected is 1; length of actual is 4.
+# 
+# ** Error: B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(38): (vcom-1272) Length of expected is 1; length of actual is 4.
+# 
+# ** Error: B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(41): VHDL Compiler exiting
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./Datapath_run_msim_rtl_vhdl.do line 14
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd}"
+do Datapath_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Reg_MA/Reg_MA.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Reg_MA
+# -- Compiling architecture arch of Reg_MA
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Comparador/Comparador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Comparador
+# -- Compiling architecture dataflow of Comparador
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/BCD_7seg/BCD_7seg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Bcd_7seg
+# -- Compiling architecture with_select_bcd7seg of Bcd_7seg
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/RegW/RegW.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegW
+# -- Compiling architecture RTL of RegW
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/Datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Datapath
+# -- Compiling architecture Arch of Datapath
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_Datapath
+# -- Compiling architecture teste of tb_Datapath
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(35): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  tb_datapath
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_datapath 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_datapath(teste)
+# Loading ieee.numeric_std(body)
+# Loading work.datapath(arch)
+# Loading work.regw(rtl)
+# Loading work.reg_ma(arch)
+# Loading work.comparador(dataflow)
+# Loading work.bcd_7seg(with_select_bcd7seg)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 15 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 15 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 15 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 55 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 55 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 55 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 75 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 75 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 75 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+do Datapath_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Reg_MA/Reg_MA.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Reg_MA
+# -- Compiling architecture arch of Reg_MA
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Comparador/Comparador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Comparador
+# -- Compiling architecture dataflow of Comparador
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/BCD_7seg/BCD_7seg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Bcd_7seg
+# -- Compiling architecture with_select_bcd7seg of Bcd_7seg
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/RegW/RegW.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegW
+# -- Compiling architecture RTL of RegW
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/Datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Datapath
+# -- Compiling architecture Arch of Datapath
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_Datapath
+# -- Compiling architecture teste of tb_Datapath
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(35): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  tb_datapath
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_datapath 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_datapath(teste)
+# Loading ieee.numeric_std(body)
+# Loading work.datapath(arch)
+# Loading work.regw(rtl)
+# Loading work.reg_ma(arch)
+# Loading work.comparador(dataflow)
+# Loading work.bcd_7seg(with_select_bcd7seg)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 15 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 15 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 15 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 35 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 35 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 35 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+add wave -position end  sim:/tb_datapath/instancia_Datapath/Comp/a
+add wave -position end  sim:/tb_datapath/instancia_Datapath/Comp/b
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/simulation/modelsim/wave.do}
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/simulation/modelsim/wave.do}
+do Datapath_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Reg_MA/Reg_MA.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Reg_MA
+# -- Compiling architecture arch of Reg_MA
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Comparador/Comparador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Comparador
+# -- Compiling architecture dataflow of Comparador
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/BCD_7seg/BCD_7seg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Bcd_7seg
+# -- Compiling architecture with_select_bcd7seg of Bcd_7seg
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/RegW/RegW.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegW
+# -- Compiling architecture RTL of RegW
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/Datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Datapath
+# -- Compiling architecture Arch of Datapath
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_Datapath
+# -- Compiling architecture teste of tb_Datapath
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(35): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  tb_datapath
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_datapath 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_datapath(teste)
+# Loading ieee.numeric_std(body)
+# Loading work.datapath(arch)
+# Loading work.regw(rtl)
+# Loading work.reg_ma(arch)
+# Loading work.comparador(dataflow)
+# Loading work.bcd_7seg(with_select_bcd7seg)
+# 
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /tb_datapath/fio_Cl
+# add wave -noupdate /tb_datapath/fio_Re
+# add wave -noupdate /tb_datapath/fio_e
+# add wave -noupdate /tb_datapath/fio_l
+# add wave -noupdate /tb_datapath/fio_a
+# add wave -noupdate /tb_datapath/fio_ma
+# add wave -noupdate /tb_datapath/fio_ig
+# add wave -noupdate /tb_datapath/fio_me
+# add wave -noupdate /tb_datapath/fio_di
+# add wave -noupdate /tb_datapath/fio_si
+# add wave -noupdate /tb_datapath/fio_so
+# add wave -noupdate /tb_datapath/fio_do
+# add wave -noupdate /tb_datapath/fio_7seg
+# add wave -noupdate -divider comparador
+# add wave -noupdate /tb_datapath/instancia_Datapath/Comp/a
+# add wave -noupdate /tb_datapath/instancia_Datapath/Comp/b
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {199556 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 0
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ps
+# update
+# WaveRestoreZoom {0 ps} {210 ns}
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 15 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 15 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 15 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 35 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 35 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 35 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+add wave -position end  sim:/tb_datapath/instancia_Datapath/RegistradorMedia/INPUT
+add wave -position end  sim:/tb_datapath/instancia_Datapath/RegistradorMedia/OUTPUT
+add wave -position end  sim:/tb_datapath/instancia_Datapath/RegistradorMedia/RESET
+add wave -position end  sim:/tb_datapath/instancia_Datapath/RegistradorMedia/CLK
+add wave -position 16  sim:/tb_datapath/instancia_Datapath/Comp/maior
+add wave -position 17  sim:/tb_datapath/instancia_Datapath/Comp/menor
+add wave -position 18  sim:/tb_datapath/instancia_Datapath/Comp/igual
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/simulation/modelsim/wave.do}
+do Datapath_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Reg_MA/Reg_MA.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Reg_MA
+# -- Compiling architecture arch of Reg_MA
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Comparador/Comparador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Comparador
+# -- Compiling architecture dataflow of Comparador
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/BCD_7seg/BCD_7seg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Bcd_7seg
+# -- Compiling architecture with_select_bcd7seg of Bcd_7seg
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/RegW/RegW.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegW
+# -- Compiling architecture RTL of RegW
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/Datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Datapath
+# -- Compiling architecture Arch of Datapath
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_Datapath
+# -- Compiling architecture teste of tb_Datapath
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(35): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  tb_datapath
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_datapath 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_datapath(teste)
+# Loading ieee.numeric_std(body)
+# Loading work.datapath(arch)
+# Loading work.regw(rtl)
+# Loading work.reg_ma(arch)
+# Loading work.comparador(dataflow)
+# Loading work.bcd_7seg(with_select_bcd7seg)
+# 
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /tb_datapath/fio_Cl
+# add wave -noupdate /tb_datapath/fio_Re
+# add wave -noupdate /tb_datapath/fio_e
+# add wave -noupdate /tb_datapath/fio_l
+# add wave -noupdate /tb_datapath/fio_a
+# add wave -noupdate /tb_datapath/fio_ma
+# add wave -noupdate /tb_datapath/fio_ig
+# add wave -noupdate /tb_datapath/fio_me
+# add wave -noupdate /tb_datapath/fio_di
+# add wave -noupdate /tb_datapath/fio_si
+# add wave -noupdate /tb_datapath/fio_so
+# add wave -noupdate /tb_datapath/fio_do
+# add wave -noupdate /tb_datapath/fio_7seg
+# add wave -noupdate -divider comparador
+# add wave -noupdate /tb_datapath/instancia_Datapath/Comp/a
+# add wave -noupdate /tb_datapath/instancia_Datapath/Comp/b
+# add wave -noupdate /tb_datapath/instancia_Datapath/Comp/maior
+# add wave -noupdate /tb_datapath/instancia_Datapath/Comp/menor
+# add wave -noupdate /tb_datapath/instancia_Datapath/Comp/igual
+# add wave -noupdate -divider registradorMA
+# add wave -noupdate /tb_datapath/instancia_Datapath/RegistradorMedia/INPUT
+# add wave -noupdate -expand /tb_datapath/instancia_Datapath/RegistradorMedia/OUTPUT
+# add wave -noupdate /tb_datapath/instancia_Datapath/RegistradorMedia/RESET
+# add wave -noupdate /tb_datapath/instancia_Datapath/RegistradorMedia/CLK
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {9391 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ps
+# update
+# WaveRestoreZoom {0 ps} {210 ns}
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 25 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 25 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 25 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 35 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 35 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 35 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+add wave -position end  sim:/tb_datapath/instancia_Datapath/RegistradorMedia/var1
+add wave -position end  sim:/tb_datapath/instancia_Datapath/RegistradorMedia/var2
+add wave -position end  sim:/tb_datapath/instancia_Datapath/RegistradorMedia/var3
+add wave -position end  sim:/tb_datapath/instancia_Datapath/RegistradorMedia/var4
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/simulation/modelsim/wave.do}
+do Datapath_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Reg_MA/Reg_MA.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Reg_MA
+# -- Compiling architecture arch of Reg_MA
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Comparador/Comparador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Comparador
+# -- Compiling architecture dataflow of Comparador
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/BCD_7seg/BCD_7seg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Bcd_7seg
+# -- Compiling architecture with_select_bcd7seg of Bcd_7seg
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/RegW/RegW.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegW
+# -- Compiling architecture RTL of RegW
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/Datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Datapath
+# -- Compiling architecture Arch of Datapath
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_Datapath
+# -- Compiling architecture teste of tb_Datapath
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(35): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  tb_datapath
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_datapath 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_datapath(teste)
+# Loading ieee.numeric_std(body)
+# Loading work.datapath(arch)
+# Loading work.regw(rtl)
+# Loading work.reg_ma(arch)
+# Loading work.comparador(dataflow)
+# Loading work.bcd_7seg(with_select_bcd7seg)
+# 
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /tb_datapath/fio_Cl
+# add wave -noupdate /tb_datapath/fio_Re
+# add wave -noupdate -radix unsigned /tb_datapath/fio_e
+# add wave -noupdate /tb_datapath/fio_l
+# add wave -noupdate /tb_datapath/fio_a
+# add wave -noupdate /tb_datapath/fio_ma
+# add wave -noupdate /tb_datapath/fio_ig
+# add wave -noupdate /tb_datapath/fio_me
+# add wave -noupdate /tb_datapath/fio_di
+# add wave -noupdate /tb_datapath/fio_si
+# add wave -noupdate /tb_datapath/fio_so
+# add wave -noupdate /tb_datapath/fio_do
+# add wave -noupdate /tb_datapath/fio_7seg
+# add wave -noupdate -divider comparador
+# add wave -noupdate -radix unsigned /tb_datapath/instancia_Datapath/Comp/a
+# add wave -noupdate -radix unsigned /tb_datapath/instancia_Datapath/Comp/b
+# add wave -noupdate /tb_datapath/instancia_Datapath/Comp/maior
+# add wave -noupdate /tb_datapath/instancia_Datapath/Comp/menor
+# add wave -noupdate /tb_datapath/instancia_Datapath/Comp/igual
+# add wave -noupdate -divider registradorMA
+# add wave -noupdate -radix unsigned /tb_datapath/instancia_Datapath/RegistradorMedia/INPUT
+# add wave -noupdate -radix unsigned -expand /tb_datapath/instancia_Datapath/RegistradorMedia/OUTPUT
+# add wave -noupdate -divider variaveis
+# add wave -noupdate /tb_datapath/instancia_Datapath/RegistradorMedia/var1
+# add wave -noupdate /tb_datapath/instancia_Datapath/RegistradorMedia/var2
+# add wave -noupdate /tb_datapath/instancia_Datapath/RegistradorMedia/var3
+# add wave -noupdate /tb_datapath/instancia_Datapath/RegistradorMedia/var4
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {14786 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ps
+# update
+# WaveRestoreZoom {0 ps} {165842 ps}
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 25 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 25 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 25 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 35 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 35 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 35 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+
+do Datapath_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Reg_MA/Reg_MA.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Reg_MA
+# -- Compiling architecture arch of Reg_MA
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Comparador/Comparador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Comparador
+# -- Compiling architecture dataflow of Comparador
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/BCD_7seg/BCD_7seg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Bcd_7seg
+# -- Compiling architecture with_select_bcd7seg of Bcd_7seg
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/RegW/RegW.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegW
+# -- Compiling architecture RTL of RegW
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/Datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Datapath
+# -- Compiling architecture Arch of Datapath
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_Datapath
+# -- Compiling architecture teste of tb_Datapath
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(35): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  tb_datapath
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_datapath 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_datapath(teste)
+# Loading ieee.numeric_std(body)
+# Loading work.datapath(arch)
+# Loading work.regw(rtl)
+# Loading work.reg_ma(arch)
+# Loading work.comparador(dataflow)
+# Loading work.bcd_7seg(with_select_bcd7seg)
+# 
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /tb_datapath/fio_Cl
+# add wave -noupdate /tb_datapath/fio_Re
+# add wave -noupdate -radix unsigned /tb_datapath/fio_e
+# add wave -noupdate /tb_datapath/fio_l
+# add wave -noupdate /tb_datapath/fio_a
+# add wave -noupdate /tb_datapath/fio_ma
+# add wave -noupdate /tb_datapath/fio_ig
+# add wave -noupdate /tb_datapath/fio_me
+# add wave -noupdate /tb_datapath/fio_di
+# add wave -noupdate /tb_datapath/fio_si
+# add wave -noupdate /tb_datapath/fio_so
+# add wave -noupdate /tb_datapath/fio_do
+# add wave -noupdate /tb_datapath/fio_7seg
+# add wave -noupdate -divider comparador
+# add wave -noupdate -radix unsigned /tb_datapath/instancia_Datapath/Comp/a
+# add wave -noupdate -radix unsigned /tb_datapath/instancia_Datapath/Comp/b
+# add wave -noupdate /tb_datapath/instancia_Datapath/Comp/maior
+# add wave -noupdate /tb_datapath/instancia_Datapath/Comp/menor
+# add wave -noupdate /tb_datapath/instancia_Datapath/Comp/igual
+# add wave -noupdate -divider registradorMA
+# add wave -noupdate -radix unsigned /tb_datapath/instancia_Datapath/RegistradorMedia/INPUT
+# add wave -noupdate -radix unsigned -expand /tb_datapath/instancia_Datapath/RegistradorMedia/OUTPUT
+# add wave -noupdate -divider variaveis
+# add wave -noupdate /tb_datapath/instancia_Datapath/RegistradorMedia/var1
+# add wave -noupdate /tb_datapath/instancia_Datapath/RegistradorMedia/var2
+# add wave -noupdate /tb_datapath/instancia_Datapath/RegistradorMedia/var3
+# add wave -noupdate /tb_datapath/instancia_Datapath/RegistradorMedia/var4
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {14786 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ps
+# update
+# WaveRestoreZoom {0 ps} {165842 ps}
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 15 ns  Iteration: 3  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 15 ns  Iteration: 3  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 15 ns  Iteration: 3  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 35 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 35 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 35 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+do Datapath_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Reg_MA/Reg_MA.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Reg_MA
+# -- Compiling architecture arch of Reg_MA
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Comparador/Comparador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Comparador
+# -- Compiling architecture dataflow of Comparador
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/BCD_7seg/BCD_7seg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Bcd_7seg
+# -- Compiling architecture with_select_bcd7seg of Bcd_7seg
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/RegW/RegW.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegW
+# -- Compiling architecture RTL of RegW
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/Datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Datapath
+# -- Compiling architecture Arch of Datapath
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_Datapath
+# -- Compiling architecture teste of tb_Datapath
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(35): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  tb_datapath
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_datapath 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_datapath(teste)
+# Loading ieee.numeric_std(body)
+# Loading work.datapath(arch)
+# Loading work.regw(rtl)
+# Loading work.reg_ma(arch)
+# Loading work.comparador(dataflow)
+# Loading work.bcd_7seg(with_select_bcd7seg)
+# 
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /tb_datapath/fio_Cl
+# add wave -noupdate /tb_datapath/fio_Re
+# add wave -noupdate -radix unsigned /tb_datapath/fio_e
+# add wave -noupdate /tb_datapath/fio_l
+# add wave -noupdate /tb_datapath/fio_a
+# add wave -noupdate /tb_datapath/fio_ma
+# add wave -noupdate /tb_datapath/fio_ig
+# add wave -noupdate /tb_datapath/fio_me
+# add wave -noupdate /tb_datapath/fio_di
+# add wave -noupdate /tb_datapath/fio_si
+# add wave -noupdate /tb_datapath/fio_so
+# add wave -noupdate /tb_datapath/fio_do
+# add wave -noupdate /tb_datapath/fio_7seg
+# add wave -noupdate -divider comparador
+# add wave -noupdate -radix unsigned /tb_datapath/instancia_Datapath/Comp/a
+# add wave -noupdate -radix unsigned /tb_datapath/instancia_Datapath/Comp/b
+# add wave -noupdate /tb_datapath/instancia_Datapath/Comp/maior
+# add wave -noupdate /tb_datapath/instancia_Datapath/Comp/menor
+# add wave -noupdate /tb_datapath/instancia_Datapath/Comp/igual
+# add wave -noupdate -divider registradorMA
+# add wave -noupdate -radix unsigned /tb_datapath/instancia_Datapath/RegistradorMedia/INPUT
+# add wave -noupdate -radix unsigned -expand /tb_datapath/instancia_Datapath/RegistradorMedia/OUTPUT
+# add wave -noupdate -divider variaveis
+# add wave -noupdate /tb_datapath/instancia_Datapath/RegistradorMedia/var1
+# add wave -noupdate /tb_datapath/instancia_Datapath/RegistradorMedia/var2
+# add wave -noupdate /tb_datapath/instancia_Datapath/RegistradorMedia/var3
+# add wave -noupdate /tb_datapath/instancia_Datapath/RegistradorMedia/var4
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {14786 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ps
+# update
+# WaveRestoreZoom {0 ps} {165842 ps}
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+do Datapath_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Reg_MA/Reg_MA.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Reg_MA
+# -- Compiling architecture arch of Reg_MA
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Comparador/Comparador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Comparador
+# -- Compiling architecture dataflow of Comparador
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/BCD_7seg/BCD_7seg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Bcd_7seg
+# -- Compiling architecture with_select_bcd7seg of Bcd_7seg
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/RegW/RegW.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegW
+# -- Compiling architecture RTL of RegW
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/Datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Datapath
+# -- Compiling architecture Arch of Datapath
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_Datapath
+# -- Compiling architecture teste of tb_Datapath
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(35): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  tb_datapath
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_datapath 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_datapath(teste)
+# Loading ieee.numeric_std(body)
+# Loading work.datapath(arch)
+# Loading work.regw(rtl)
+# Loading work.reg_ma(arch)
+# Loading work.comparador(dataflow)
+# Loading work.bcd_7seg(with_select_bcd7seg)
+# 
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /tb_datapath/fio_Cl
+# add wave -noupdate /tb_datapath/fio_Re
+# add wave -noupdate -radix unsigned /tb_datapath/fio_e
+# add wave -noupdate /tb_datapath/fio_l
+# add wave -noupdate /tb_datapath/fio_a
+# add wave -noupdate /tb_datapath/fio_ma
+# add wave -noupdate /tb_datapath/fio_ig
+# add wave -noupdate /tb_datapath/fio_me
+# add wave -noupdate /tb_datapath/fio_di
+# add wave -noupdate /tb_datapath/fio_si
+# add wave -noupdate /tb_datapath/fio_so
+# add wave -noupdate /tb_datapath/fio_do
+# add wave -noupdate /tb_datapath/fio_7seg
+# add wave -noupdate -divider comparador
+# add wave -noupdate -radix unsigned /tb_datapath/instancia_Datapath/Comp/a
+# add wave -noupdate -radix unsigned /tb_datapath/instancia_Datapath/Comp/b
+# add wave -noupdate /tb_datapath/instancia_Datapath/Comp/maior
+# add wave -noupdate /tb_datapath/instancia_Datapath/Comp/menor
+# add wave -noupdate /tb_datapath/instancia_Datapath/Comp/igual
+# add wave -noupdate -divider registradorMA
+# add wave -noupdate -radix unsigned /tb_datapath/instancia_Datapath/RegistradorMedia/INPUT
+# add wave -noupdate -radix unsigned -expand /tb_datapath/instancia_Datapath/RegistradorMedia/OUTPUT
+# add wave -noupdate -divider variaveis
+# add wave -noupdate /tb_datapath/instancia_Datapath/RegistradorMedia/var1
+# add wave -noupdate /tb_datapath/instancia_Datapath/RegistradorMedia/var2
+# add wave -noupdate /tb_datapath/instancia_Datapath/RegistradorMedia/var3
+# add wave -noupdate /tb_datapath/instancia_Datapath/RegistradorMedia/var4
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {14786 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ps
+# update
+# WaveRestoreZoom {0 ps} {165842 ps}
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+do Datapath_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Reg_MA/Reg_MA.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Reg_MA
+# -- Compiling architecture arch of Reg_MA
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Comparador/Comparador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Comparador
+# -- Compiling architecture dataflow of Comparador
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/BCD_7seg/BCD_7seg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Bcd_7seg
+# -- Compiling architecture with_select_bcd7seg of Bcd_7seg
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/RegW/RegW.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegW
+# -- Compiling architecture RTL of RegW
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/Datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Datapath
+# -- Compiling architecture Arch of Datapath
+# 
+# vcom -93 -work work {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_Datapath
+# -- Compiling architecture teste of tb_Datapath
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(35): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/tb_datapath.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  tb_datapath
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_datapath 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_datapath(teste)
+# Loading ieee.numeric_std(body)
+# Loading work.datapath(arch)
+# Loading work.regw(rtl)
+# Loading work.reg_ma(arch)
+# Loading work.comparador(dataflow)
+# Loading work.bcd_7seg(with_select_bcd7seg)
+# 
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /tb_datapath/fio_Cl
+# add wave -noupdate /tb_datapath/fio_Re
+# add wave -noupdate -radix unsigned /tb_datapath/fio_e
+# add wave -noupdate /tb_datapath/fio_l
+# add wave -noupdate /tb_datapath/fio_a
+# add wave -noupdate /tb_datapath/fio_ma
+# add wave -noupdate /tb_datapath/fio_ig
+# add wave -noupdate /tb_datapath/fio_me
+# add wave -noupdate /tb_datapath/fio_di
+# add wave -noupdate /tb_datapath/fio_si
+# add wave -noupdate /tb_datapath/fio_so
+# add wave -noupdate /tb_datapath/fio_do
+# add wave -noupdate /tb_datapath/fio_7seg
+# add wave -noupdate -divider comparador
+# add wave -noupdate -radix unsigned /tb_datapath/instancia_Datapath/Comp/a
+# add wave -noupdate -radix unsigned /tb_datapath/instancia_Datapath/Comp/b
+# add wave -noupdate /tb_datapath/instancia_Datapath/Comp/maior
+# add wave -noupdate /tb_datapath/instancia_Datapath/Comp/menor
+# add wave -noupdate /tb_datapath/instancia_Datapath/Comp/igual
+# add wave -noupdate -divider registradorMA
+# add wave -noupdate -radix unsigned /tb_datapath/instancia_Datapath/RegistradorMedia/INPUT
+# add wave -noupdate -radix unsigned -expand /tb_datapath/instancia_Datapath/RegistradorMedia/OUTPUT
+# add wave -noupdate -divider variaveis
+# add wave -noupdate /tb_datapath/instancia_Datapath/RegistradorMedia/var1
+# add wave -noupdate /tb_datapath/instancia_Datapath/RegistradorMedia/var2
+# add wave -noupdate /tb_datapath/instancia_Datapath/RegistradorMedia/var3
+# add wave -noupdate /tb_datapath/instancia_Datapath/RegistradorMedia/var4
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {14786 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ps
+# update
+# WaveRestoreZoom {0 ps} {165842 ps}
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 140 ns
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /tb_datapath/instancia_Datapath/Comp
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {B:/UFMG/2023-2/LAB SD/pratica 8/Tudo/Datapath/simulation/modelsim/wave.do}

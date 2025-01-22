@@ -1,0 +1,29 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity tb_fulladder is
+end tb_fulladder;
+
+architecture teste of tb_fulladder is
+
+component fulladder is
+port ( Cin : in std_logic;
+           x   : in std_logic;
+           y   : in std_logic;
+           s   : out std_logic;
+           Cout : out std_logic
+        );
+end component;
+
+signal fio_Cin, fio_x, fio_y: std_logic: ='0';
+signal  fio_s, fio_Cout: std_logic;
+
+begin
+
+instancia_door_opener: Door_opener port map(Cin=>fio_Cin, x=>fio_x, y=>fio_y, s=>fio_s,Cout=>fio_Cout);
+
+fio_Cin <= not fio_Cin after 200ns---'0', '1' after 25 ns, '0' after 50 ns, '1' after 600 ns;
+fio_x <= not fio_x after 100ns---'0', '1' after 100 ns, '0' after 200 ns, '1' after 300 ns, '0' after 400 ns, '1' after 500 ns;
+fio_y <= not fio_y after 50ns---'0', '1' after 50 ns, '0' after 100 ns, '1' after 150 ns, '0' after 200 ns, '1' after 250 ns,'0' after 300 ns, '1' after 350 ns, '0' after 400 ns;
+
+end teste;

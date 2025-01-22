@@ -1,0 +1,7 @@
+|Door_opener
+pino_c => pino_f.IN1
+pino_h => pino_f.IN0
+pino_p => pino_f.IN1
+pino_f <= pino_f.DB_MAX_OUTPUT_PORT_TYPE
+
+

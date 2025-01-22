@@ -1,0 +1,18 @@
+|pseudo_mux
+CLOCK => est_atual~1.DATAIN
+RESET => est_atual~3.DATAIN
+S => Selector1.IN3
+S => Selector2.IN3
+S => Selector3.IN3
+S => Selector4.IN3
+S => Selector1.IN1
+S => Selector2.IN1
+S => Selector3.IN1
+S => Selector4.IN1
+A => Selector0.IN0
+B => Selector0.IN1
+C => Selector0.IN2
+D => Selector0.IN3
+Q <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,77 @@
+m255
+K3
+13
+cModel Technology
+Z0 dB:\UFMG\2023-2\LAB SD\pratica 5\RegW\simulation\modelsim
+Eregw
+Z1 w1713393216
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dB:\UFMG\2023-2\LAB SD\pratica 5\RegW\simulation\modelsim
+Z6 8B:/UFMG/2023-2/LAB SD/pratica 5/RegW/RegW.vhd
+Z7 FB:/UFMG/2023-2/LAB SD/pratica 5/RegW/RegW.vhd
+l0
+L4
+VT^j`V3l?d>bh=GYgLU>YW2
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1713393344.899000
+Z10 !s90 -reportprogress|300|-93|-work|work|B:/UFMG/2023-2/LAB SD/pratica 5/RegW/RegW.vhd|
+Z11 !s107 B:/UFMG/2023-2/LAB SD/pratica 5/RegW/RegW.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 Sc`8NkS843B[_CcT]M55@2
+!i10b 1
+Artl
+R2
+R3
+R4
+DEx4 work 4 regw 0 22 T^j`V3l?d>bh=GYgLU>YW2
+l18
+L17
+VcCAzEbOBGKeVKRVI^E=F40
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 5M6BLOf]ZB?EBoI08U]1G3
+!i10b 1
+Etb_regw
+Z14 w1713393314
+R3
+R4
+R5
+Z15 8B:/UFMG/2023-2/LAB SD/pratica 5/RegW/tb_RegW.vhd
+Z16 FB:/UFMG/2023-2/LAB SD/pratica 5/RegW/tb_RegW.vhd
+l0
+L3
+VSgVZ[O>gzITRG2?S:GEg;0
+!s100 O5Pn<Se>W`CaRd7@68@RM1
+R8
+31
+!i10b 1
+Z17 !s108 1713393345.340000
+Z18 !s90 -reportprogress|300|-93|-work|work|B:/UFMG/2023-2/LAB SD/pratica 5/RegW/tb_RegW.vhd|
+Z19 !s107 B:/UFMG/2023-2/LAB SD/pratica 5/RegW/tb_RegW.vhd|
+R12
+R13
+Ateste
+R3
+R4
+DEx4 work 7 tb_regw 0 22 SgVZ[O>gzITRG2?S:GEg;0
+l21
+L5
+VhMBZcJX0QX>]^lih4fOn51
+!s100 5RFlgzXK3Kb@O6ei9kjYJ1
+R8
+31
+!i10b 1
+R17
+R18
+R19
+R12
+R13

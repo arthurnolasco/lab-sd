@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\silva\OneDrive\햞ea de Trabalho\UFMG\2023-2\LAB SD\pratica 2\simulation\modelsim
+Edoor_opener
+Z1 w1693237484
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\silva\OneDrive\햞ea de Trabalho\UFMG\2023-2\LAB SD\pratica 2\simulation\modelsim
+Z5 8C:/Users/silva/OneDrive/햞ea de Trabalho/UFMG/2023-2/LAB SD/pratica 2/Door_opener.vhd
+Z6 FC:/Users/silva/OneDrive/햞ea de Trabalho/UFMG/2023-2/LAB SD/pratica 2/Door_opener.vhd
+l0
+L4
+V5m49<6]BTdG2fT=;4VlS>1
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1693347060.152000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/silva/OneDrive/햞ea de Trabalho/UFMG/2023-2/LAB SD/pratica 2/Door_opener.vhd|
+Z10 !s107 C:/Users/silva/OneDrive/햞ea de Trabalho/UFMG/2023-2/LAB SD/pratica 2/Door_opener.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 @95hl2Fb;hjz6CKb>`_3X1
+!i10b 1
+Adataflow
+R2
+R3
+DEx4 work 11 door_opener 0 22 5m49<6]BTdG2fT=;4VlS>1
+l12
+L11
+Va[?oZ0?`Fibgj`6fUmEo=3
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 ^]GEl[o:Z=e?2oZXoTVQk2
+!i10b 1
+Etb_door_opener
+Z13 w1693238459
+R2
+R3
+R4
+Z14 8C:/Users/silva/OneDrive/햞ea de Trabalho/UFMG/2023-2/LAB SD/pratica 2/tb_Door_opener.vhd
+Z15 FC:/Users/silva/OneDrive/햞ea de Trabalho/UFMG/2023-2/LAB SD/pratica 2/tb_Door_opener.vhd
+l0
+L4
+VKP0@zdb<iTbHGa3;0;Pe;2
+!s100 gWjN:@hd0<?Jzg?amYf_h1
+R7
+31
+!i10b 1
+Z16 !s108 1693347060.285000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/silva/OneDrive/햞ea de Trabalho/UFMG/2023-2/LAB SD/pratica 2/tb_Door_opener.vhd|
+Z18 !s107 C:/Users/silva/OneDrive/햞ea de Trabalho/UFMG/2023-2/LAB SD/pratica 2/tb_Door_opener.vhd|
+R11
+R12
+Ateste
+R2
+R3
+DEx4 work 14 tb_door_opener 0 22 KP0@zdb<iTbHGa3;0;Pe;2
+l18
+L7
+VlLSF?[BU@HScbC3S]][@R2
+!s100 FV5mzn8RA^0l_@NNZB[Yd3
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12
